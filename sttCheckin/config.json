@@ -1,0 +1,6 @@
+{
+  "login_url": "https://stt.lol/auth/login",
+  "checkin_url": "https://stt.lol/user/checkin",
+  "email": "xxxx@gmail.com",
+  "passwd": "xxxx"
+}
