@@ -40,7 +40,7 @@ def get_time():
 
 
 if __name__ == '__main__':
-    with open("./config.json", 'r') as f:
+    with open("./stt/config.json", 'r') as f:
         config = json.load(f)
     print("{}配置文件为".format(get_time()), config)
     cookie = login(auth_url=config["login_url"], email=config["email"], passwd=config["passwd"])

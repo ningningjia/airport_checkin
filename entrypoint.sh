@@ -4,7 +4,7 @@
 while true
 do
     # 启动第一个 Python 脚本
-    python ./main.py >> ./checkin.log 2>&1
+    python ./stt/stt.py >> ./stt/checkin.log 2>&1
 
     # 启动第二个 Python 脚本
     python ./yiyo/yiyo.py >> ./yiyo/checkin.log 2>&1
