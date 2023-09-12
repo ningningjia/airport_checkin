@@ -2,7 +2,7 @@ FROM python:3.9.6
 
 WORKDIR /usr/src/app
 
-COPY ./sttCheckin/ ./
+COPY stt/ ./
 RUN pip install --no-cache-dir -r ./requirements.txt
 
 
